@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  head 
+    title My Portfolio
+  body
+
+    main
+      section#hero
+        h3 Welcome to my portfolio!
+        p I’m a software engineer passionate about building scalable web apps and exploring AI.
+        a.button(href="/projects") View Projects
+
+      section
+        h2 About Me
+        p I'm a recent Computer Science graduate experienced in Node.js, MySQL, C#, and more. I love learning new technologies and building impactful solutions. I will be working on obtaining a Master's Degree by May 2026.
+
+      section#projects
+        h2 Most Prided Projects
+        .project-grid
+          a.project(href="https://github.com/Origamiboss/TeachingCapstone", target="_blank")
+            h3 Teaching Capstone
+            p AI assignment generator where you can create a teacher account, link student accounts, and generate assignments for the students based on your powerpoints.
+            p Tools Used: Node.js, JavaScript, Pug, CSS, SQL, and OpenAI.
+          a.project(href="https://github.com/Origamiboss/FinalVictimPickerProject", target="_blank")
+            h3 Victim Picker
+            p An Application that hosts a list of students, and randomly selects one. The application will display a question and allow the student to answer the question. The app stores information for each student for future use.
+            p Tools Used: Java
+
+      section#contact
+        h2 Contact
+        p Let's work together!
+        ul.contact-info
+          li Email: vincentclimer@gmail.com
+          li LinkedIn: 
+            a(href="https://www.linkedin.com/in/vincent-climer-050374356/", target="_blank") vincentclimer
+
+    footer
+      p &copy; 2025 Vincent Climer. All rights reserved.
+      
+
+
