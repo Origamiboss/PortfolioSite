@@ -189,3 +189,26 @@ footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
+#main-page-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    background-color: #b6b6b6;
+    padding: 2rem;
+}
+    #main-page-buttons a {
+        background: #f4f4f4;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: block;
+        text-align: center;
+    }
+    #main-page-buttons a:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
