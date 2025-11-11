@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\stylesheets",
+    "\\routes",
+    "\\views"
   ],
+  "SelectedNode": "\\views\\PortfolioMainPage.pug",
   "PreviewInSolutionExplorer": false
 }
