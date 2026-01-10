@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\images",
+    "\\public\\images\\favicon",
     "\\public\\stylesheets",
-    "\\routes",
-    "\\views"
+    "\\routes"
   ],
   "PreviewInSolutionExplorer": false
 }
