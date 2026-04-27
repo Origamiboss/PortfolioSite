@@ -1,0 +1,46 @@
+#about {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #b6b6b6;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+    .about-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #363636;
+    }
+
+    .about-text p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 1rem;
+    }
+
+#aboutImage img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}

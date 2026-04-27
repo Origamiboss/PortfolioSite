@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+    background: #e9edf1;
+    color: #333;
+    line-height: 1.6;
+    flex: 1;
+}
+
+header {
+  background: #2b4e21;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+
+/* ----------------- Responsive Navbar ----------------- */
+nav {
+    background: #2b4e21;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+    /* base horizontal layout (desktop) */
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    nav a {
+        color: #e8f5e9;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.75rem;
+    }
+        nav a:hover {
+            background: #3f6b31;
+            color: #ffffff;
+        }
+
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+    color: #61dafb;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+/* ----------- MOBILE STYLES ----------- */
+@media (max-width: 768px) {
+
+    /* stack nav vertically instead of hiding it */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        display: flex; /* <-- KEEP IT VISIBLE */
+        padding: 1rem 0;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem;
+    }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+        }
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+

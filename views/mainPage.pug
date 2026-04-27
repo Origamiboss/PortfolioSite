@@ -1,21 +1,40 @@
 extends layout
 
+block head-extra
+  title My Portfolio
+  link(rel="stylesheet", href="stylesheets/mainPage.css")
+
 block content
-  head 
-    title My Portfolio
-  body
+  main
+    section#hero
+      h3 Welcome to My Portfolio
+      p Feel free to explore my portfolio, LinkedIn, and GitHub!
 
-    main
-        section#hero
-            h3 Welcome to My Portfolio
-            p Feel free to explore my portfolio, LinkedIn, and GitHub!
-        section#main-page-buttons
-                a(href="/portfolio") View Portfolio
-                a(href="https://www.linkedin.com/in/vincent-climer-050374356/", target="_blank") LinkedIn
-                a(href="https://github.com/Origamiboss", target="_blank") GitHub
-            
+    section#about-main
+      .about-container
+        .about-title
+          h1 About Me
 
-      
-      
+        .about-content
+          .about-text
+            h2 Vincent Climer
+            p I'm a recent Computer Science Master's graduate experienced in Node.js, MySQL, C#, and more. I love learning new technologies and building impactful solutions.
+          img(src="/images/me.jpeg", alt="Profile Picture")
+    section#Favorite-Projects
+      .projects-container
+        .project-grid
+          a.project(href="https://github.com/Origamiboss/TeachingCapstone", target="_blank")
+            h3 Teaching Capstone
+            p AI assignment generator where you can create a teacher account, link student accounts, and generate assignments for the students based on your powerpoints.
+            p Tools Used: Node.js, JavaScript, Pug, CSS, SQL, and OpenAI.
 
+          a.project(href="https://origamiboss02.itch.io/supreme-villain-demo", target="_blank")
+            h3 Supreme Villain
+            p A Strategy Control Game Where you try to Control the World by Hiring Villains.
+            p Tools Used: Unity, C#.
 
+        .projects-title
+          h1 My Favorite Projects
+    section#main-page-buttons
+      a(href="https://www.linkedin.com/in/vincent-climer-050374356/", target="_blank") LinkedIn
+      a(href="https://github.com/Origamiboss", target="_blank") GitHub

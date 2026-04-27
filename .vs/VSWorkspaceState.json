@@ -5,7 +5,8 @@
     "\\public\\images",
     "\\public\\images\\favicon",
     "\\public\\stylesheets",
-    "\\routes"
+    "\\routes",
+    "\\views"
   ],
   "PreviewInSolutionExplorer": false
 }

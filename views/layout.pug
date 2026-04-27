@@ -3,21 +3,20 @@ html
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    link(rel="stylesheet", href="stylesheets/mainPage.css")
+    link(rel="stylesheet", href="stylesheets/layout.css")
     link(rel="icon", type="image/png", href="images/favicon/favicon-16x16.png")
+    block head-extra
   body
     header
         h1 Vincent Climer
-        h2 Software Engineer
+        h2 Portfolio Site
         nav
-            input#menu-toggle(type="checkbox")
-            label.menu-icon(for="menu-toggle") ...
-            ul
-                li: a(href="/") Home
-                li: a(href="/portfolio") Portfolio
-                li: a(href="/about") About
-                li: a(href="/projects") Projects
-                li: a(href="/contact") Contact
+          ul
+            li: a(href="/") Home
+            //li: a(href="/portfolio") Portfolio
+            li: a(href="/about") About
+            li: a(href="/projects") Projects
+            li: a(href="/contact") Contact
     block content
     
   footer

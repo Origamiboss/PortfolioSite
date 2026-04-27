@@ -1,14 +1,28 @@
 extends layout
 
+block head-extra
+  title Contact Information
+  link(rel="stylesheet", href="stylesheets/contact.css")
+
 block content 
-    head 
-        title Contact  
-    main
-        section#contact
-            h2 Contact Information
-            ul.contact-info
-                li Name: Vincent Climer
-                li Email: vincentclimer@gmail.com
-                li LinkedIn: 
-                    a(href="https://www.linkedin.com/in/vincent-climer-050374356/", target="_blank") vincentclimer
-                li Phone Number: (501)681-6008
+  main
+    section#contact
+      h2 Get In Touch
+      p.contact-subtext Feel free to reach out-I'm open to opportunities and collaborations.
+
+      ul.contact-info
+        li
+          span.label Name
+          span.value Vincent Climer
+
+        li
+          span.label Email
+          a.value(href="mailto:vincentclimer@gmail.com") vincentclimer@gmail.com
+
+        li
+          span.label LinkedIn
+          a.value(href="https://www.linkedin.com/in/vincent-climer-050374356/", target="_blank") View Profile
+
+        li
+          span.label Phone
+          a.value(href="tel:+15016816008") (501) 681-6008
