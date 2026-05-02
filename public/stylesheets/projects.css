@@ -26,6 +26,8 @@
         background: #f4f4f4;
         padding: 1rem;
         border-radius: 8px;
+        border-left: 2.5px solid;
+        border-left-color: #2b4e21;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         text-decoration: none;
         color: inherit;
@@ -36,6 +38,7 @@
         .project-grid a.project:hover {
             transform: translateY(-4px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-left-color: #8fcf7a;
         }
 
 .project h3 {
