@@ -1,6 +1,8 @@
 extends layout
+block head-extra
+    title Mine Sweeper
+
 block content
-  
     section#game
         h1 Mine Sweeper
         p Play as a mine sweeper and try to clear the board without hitting any mines.
@@ -9,8 +11,5 @@ block content
         p Good luck on winning this challenging game.
         iframe(
             src="/games/MineSweeper/index.html"
-            width="1280"
-            height="720"
-            frameborder="2"
-            allowfullscreen
+            style="width:100%; height:80vh; border:2px solid black;"
         )

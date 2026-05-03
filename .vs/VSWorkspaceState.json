@@ -3,11 +3,8 @@
     "",
     "\\public",
     "\\public\\games",
-    "\\public\\games\\SupremeVillain",
-    "\\public\\games\\SupremeVillain\\Build",
-    "\\public\\images\\favicon",
-    "\\routes"
+    "\\routes",
+    "\\views"
   ],
-  "SelectedNode": "\\public\\games\\SupremeVillain\\Build\\SupremeVillain.loader.js",
   "PreviewInSolutionExplorer": false
 }
