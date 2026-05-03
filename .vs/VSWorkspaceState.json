@@ -2,12 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\images",
+    "\\public\\games",
+    "\\public\\games\\SupremeVillain",
+    "\\public\\games\\SupremeVillain\\Build",
     "\\public\\images\\favicon",
-    "\\public\\stylesheets",
-    "\\routes",
-    "\\views"
+    "\\routes"
   ],
-  "SelectedNode": "\\views\\contact.pug",
+  "SelectedNode": "\\public\\games\\SupremeVillain\\Build\\SupremeVillain.loader.js",
   "PreviewInSolutionExplorer": false
 }

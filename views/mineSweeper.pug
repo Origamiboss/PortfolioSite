@@ -1,0 +1,16 @@
+extends layout
+block content
+  
+    section#game
+        h1 Mine Sweeper
+        p Play as a mine sweeper and try to clear the board without hitting any mines.
+        p WASD allows you to move your character around.
+        p Arrow Keys allow you to place flags.
+        p Good luck on winning this challenging game.
+        iframe(
+            src="/games/MineSweeper/index.html"
+            width="1280"
+            height="720"
+            frameborder="2"
+            allowfullscreen
+        )

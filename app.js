@@ -9,7 +9,7 @@ var aboutRouter = require('./routes/about');
 var contactRouter = require('./routes/contact');
 var projectRouter = require('./routes/projects');
 var usersRouter = require('./routes/users');
-var supremeVillainRouter = require('./routes/supremeVillain');
+var mineSweeperRouter = require('./routes/mineSweeper');
 
 var app = express();
 
@@ -64,7 +64,7 @@ app.use('/about', aboutRouter);
 app.use('/contact', contactRouter);
 app.use('/projects', projectRouter);
 app.use('/users', usersRouter);
-app.use('/supremeVillainDemo', supremeVillainRouter);
+app.use('/mineSweeper', mineSweeperRouter);
 
 
 
